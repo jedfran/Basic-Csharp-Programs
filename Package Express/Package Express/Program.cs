@@ -48,13 +48,15 @@ namespace Package_Express
                     Console.WriteLine("Package too big to be shipped via Package Express.");
                     Console.ReadLine();
                 }
-
-                //Multiplying each dimension + weight of package to get the price
-                //(width * height * length * weight)
-                //Converting int to decimal and dividing by 100 after to get the total price of the package
-                decimal packagePrice = Convert.ToDecimal(packageWidthNum * packageHeightNum * packageLengthNum * packageWeightNum) / 100;
-                Console.WriteLine("Your estimated total for shipping this packing is: $" + packagePrice);
-                Console.ReadLine();
+                else
+                {
+                    //Multiplying each dimension + weight of package to get the price
+                    //(width * height * length * weight)
+                    //Converting int to decimal and dividing by 100 after to get the total price of the package
+                    decimal packagePrice = Convert.ToDecimal(packageWidthNum * packageHeightNum * packageLengthNum * packageWeightNum) / 100;
+                    Console.WriteLine("Your estimated total for shipping this packing is: $" + packagePrice);
+                    Console.ReadLine();
+                }
             }
 
             
