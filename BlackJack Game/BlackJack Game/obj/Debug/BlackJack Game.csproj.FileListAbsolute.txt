@@ -1,0 +1,7 @@
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\BlackJack Game\BlackJack Game\bin\Debug\BlackJack Game.exe.config
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\BlackJack Game\BlackJack Game\bin\Debug\BlackJack Game.exe
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\BlackJack Game\BlackJack Game\bin\Debug\BlackJack Game.pdb
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\BlackJack Game\BlackJack Game\obj\Debug\BlackJack Game.csproj.AssemblyReference.cache
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\BlackJack Game\BlackJack Game\obj\Debug\BlackJack Game.csproj.CoreCompileInputs.cache
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\BlackJack Game\BlackJack Game\obj\Debug\BlackJack Game.exe
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\BlackJack Game\BlackJack Game\obj\Debug\BlackJack Game.pdb
