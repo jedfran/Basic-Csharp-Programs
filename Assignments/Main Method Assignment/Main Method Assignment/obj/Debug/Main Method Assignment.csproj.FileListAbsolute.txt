@@ -1,0 +1,7 @@
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\Assignments\Main Method Assignment\Main Method Assignment\bin\Debug\Main Method Assignment.exe.config
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\Assignments\Main Method Assignment\Main Method Assignment\bin\Debug\Main Method Assignment.exe
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\Assignments\Main Method Assignment\Main Method Assignment\bin\Debug\Main Method Assignment.pdb
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\Assignments\Main Method Assignment\Main Method Assignment\obj\Debug\Main Method Assignment.csproj.AssemblyReference.cache
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\Assignments\Main Method Assignment\Main Method Assignment\obj\Debug\Main Method Assignment.csproj.CoreCompileInputs.cache
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\Assignments\Main Method Assignment\Main Method Assignment\obj\Debug\Main Method Assignment.exe
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\Assignments\Main Method Assignment\Main Method Assignment\obj\Debug\Main Method Assignment.pdb
