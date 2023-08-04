@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace BlackJack_Game
-    {
+{
     interface IWalkAway
-        {
-         void WalkAway(Player player);
-        }
+    {
+        void WalkAway(Player player);
     }
+}

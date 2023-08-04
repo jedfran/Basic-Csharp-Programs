@@ -5,32 +5,33 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace BlackJack_Game
-    {
+{
     class Program
-        {
+    {
         static void Main(string[] args)
-            {
+        {
+            Game game = new TwentyOneGame();
+            game.Players = new List<Player>();
+            Player player = new Player();
+            player.Name = "Jedo";
+            game += player;
+            game -= player;
 
+            //Instantiating Deck Class
             Deck deck = new Deck();
+            //Shuffles Deck 3 times
             deck.Shuffle(3);
 
+            //Prints the Suit and Face of the Card 
             foreach (Card card in deck.Cards)
-                {
+            {
                 Console.WriteLine(card.Face + " of " + card.Suit);
-                }
+            }
+            //Shows the card count (52)
             Console.WriteLine(deck.Cards.Count);
             Console.ReadLine();
 
-            }
-
-
-        //public static Deck Shuffle(Deck deck, int times)
-        //    {
-        //    for (int i = 0; i < times; i++)
-        //        {
-        //        deck = Shuffle(deck);
-        //        }
-        //    return deck;
-        //    }
         }
+
     }
+}
