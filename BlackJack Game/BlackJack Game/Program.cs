@@ -9,14 +9,7 @@ namespace BlackJack_Game
     class Program
     {
         static void Main(string[] args)
-        {
-            Game game = new TwentyOneGame();
-            game.Players = new List<Player>();
-            Player player = new Player();
-            player.Name = "Jedo";
-            game += player;
-            game -= player;
-
+        { 
             //Instantiating Deck Class
             Deck deck = new Deck();
             //Shuffles Deck 3 times

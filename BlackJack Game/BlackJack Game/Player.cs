@@ -8,7 +8,6 @@ namespace BlackJack_Game
 {
     public class Player
     {
-
         // List of Properties
         public List<Card> Hand { get; set; }
         public int Balance { get; set; }
@@ -17,14 +16,12 @@ namespace BlackJack_Game
 
 
         // Overloaded Operator Method
-
         //Overloading the plus operator (+)
         public static Game operator+ (Game game, Player player) //In the parameters are what we are adding together
         {
             game.Players.Add(player);
             return game;
         }
-
         //Overloading the minus operator (-)
         public static Game operator- (Game game, Player player)
         {
