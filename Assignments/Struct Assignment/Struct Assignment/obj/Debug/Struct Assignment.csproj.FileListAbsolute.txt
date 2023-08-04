@@ -1,0 +1,7 @@
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\Assignments\Struct Assignment\Struct Assignment\bin\Debug\Struct Assignment.exe.config
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\Assignments\Struct Assignment\Struct Assignment\bin\Debug\Struct Assignment.exe
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\Assignments\Struct Assignment\Struct Assignment\bin\Debug\Struct Assignment.pdb
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\Assignments\Struct Assignment\Struct Assignment\obj\Debug\Struct Assignment.csproj.AssemblyReference.cache
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\Assignments\Struct Assignment\Struct Assignment\obj\Debug\Struct Assignment.csproj.CoreCompileInputs.cache
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\Assignments\Struct Assignment\Struct Assignment\obj\Debug\Struct Assignment.exe
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\Assignments\Struct Assignment\Struct Assignment\obj\Debug\Struct Assignment.pdb

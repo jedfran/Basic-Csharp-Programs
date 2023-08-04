@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BlackJack_Game
 {
-    public class Card
+    public struct Card
     {
         //List of Properties
         public Suit Suit { get; set; }
