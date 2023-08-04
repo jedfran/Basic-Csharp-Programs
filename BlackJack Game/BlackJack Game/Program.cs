@@ -10,8 +10,11 @@ namespace BlackJack_Game
     {
         static void Main(string[] args)
         { 
+            
+            
             //Instantiating Deck Class
             Deck deck = new Deck();
+
             //Shuffles Deck 3 times
             deck.Shuffle(3);
 

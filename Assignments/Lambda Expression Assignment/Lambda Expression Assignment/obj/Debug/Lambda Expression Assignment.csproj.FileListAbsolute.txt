@@ -1,0 +1,7 @@
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\Assignments\Lambda Expression Assignment\Lambda Expression Assignment\bin\Debug\Lambda Expression Assignment.exe.config
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\Assignments\Lambda Expression Assignment\Lambda Expression Assignment\bin\Debug\Lambda Expression Assignment.exe
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\Assignments\Lambda Expression Assignment\Lambda Expression Assignment\bin\Debug\Lambda Expression Assignment.pdb
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\Assignments\Lambda Expression Assignment\Lambda Expression Assignment\obj\Debug\Lambda Expression Assignment.csproj.AssemblyReference.cache
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\Assignments\Lambda Expression Assignment\Lambda Expression Assignment\obj\Debug\Lambda Expression Assignment.csproj.CoreCompileInputs.cache
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\Assignments\Lambda Expression Assignment\Lambda Expression Assignment\obj\Debug\Lambda Expression Assignment.exe
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\Assignments\Lambda Expression Assignment\Lambda Expression Assignment\obj\Debug\Lambda Expression Assignment.pdb
