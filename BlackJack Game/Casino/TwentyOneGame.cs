@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Casino.Interfaces;
 
-namespace BlackJack_Game
+namespace Casino.BlackJack
 {
     public class TwentyOneGame : Game, IWalkAway // :Game inherits the from the class Game and inherits from inteface "IWalkAway"
     {
