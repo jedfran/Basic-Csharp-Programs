@@ -16,7 +16,7 @@ namespace Input_Assignment
             int inputNum = Convert.ToInt32(Console.ReadLine());
 
             //Logs the number into a text file
-            using (StreamWriter file = new StreamWriter(@"C:\Users\Jedo Francisco\logs\input.txt",true))
+            using (StreamWriter file = new StreamWriter(@"C:\Users\Jedo Francisco\logs\input.txt"))
             {
                 file.WriteLine(inputNum);
             }
