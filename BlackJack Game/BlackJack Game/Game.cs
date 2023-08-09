@@ -8,12 +8,17 @@ namespace BlackJack_Game
 {
     public abstract class Game
     {
-        // List of Properties
-        public List<Player> Players { get; set; }
-        public string Name { get; set; }
-        public string Dealer { get; set; }
+        //Instantiating List
+        private List<Player> _players = new List<Player>();
+        private Dictionary<Player, int> _bets = new Dictionary<Player, int>();
 
+
+        // List of Properties
+        public List<Player> Players { get { return _players; } set { _players = value; }}
+        public string Name { get; set; }
         public abstract void Play();
+        //Dictionary property, a dictionary takes key and value
+        public Dictionary<Player, int> Bets { get { return _bets; } set { _bets = value; } }
 
         public virtual void ListPlayers()
         {

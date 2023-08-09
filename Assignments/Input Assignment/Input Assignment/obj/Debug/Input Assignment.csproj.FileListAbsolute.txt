@@ -1,0 +1,7 @@
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\Assignments\Input Assignment\Input Assignment\bin\Debug\Input Assignment.exe.config
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\Assignments\Input Assignment\Input Assignment\bin\Debug\Input Assignment.exe
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\Assignments\Input Assignment\Input Assignment\bin\Debug\Input Assignment.pdb
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\Assignments\Input Assignment\Input Assignment\obj\Debug\Input Assignment.csproj.AssemblyReference.cache
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\Assignments\Input Assignment\Input Assignment\obj\Debug\Input Assignment.csproj.CoreCompileInputs.cache
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\Assignments\Input Assignment\Input Assignment\obj\Debug\Input Assignment.exe
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\Assignments\Input Assignment\Input Assignment\obj\Debug\Input Assignment.pdb

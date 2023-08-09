@@ -8,11 +8,38 @@ namespace BlackJack_Game
 {
     public class Player
     {
+        //Constructor 
+        public Player(string name, int beginningBalance) //takes 2 parameters
+        {
+            //initializing list so we can add things to them
+            Hand = new List<Card>();
+            Balance = beginningBalance;
+            Name = name;
+        }
+        //Initianting List
+        private List<Card> _hand = new List<Card>();
+
         // List of Properties
-        public List<Card> Hand { get; set; }
+        public List<Card> Hand { get { return _hand; } set { _hand = value; } }
         public int Balance { get; set; }
         public string Name { get; set; }
         public bool isActivelyPlaying { get; set; }
+        public bool Stay { get; set; }
+
+        //Bet Method
+        public bool Bet(int amount)
+        {
+            if (Balance - amount < 0)
+            {
+                Console.WriteLine("You don't have enough to place a bet that size.");
+                return false;
+            }
+            else
+            {
+                Balance -= amount;
+                return true;
+            }
+        }
 
 
         // Overloaded Operator Method

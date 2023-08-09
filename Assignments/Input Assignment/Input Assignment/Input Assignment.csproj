@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{78D4EE57-9BD6-4DF4-B122-25D503065444}</ProjectGuid>
+    <ProjectGuid>{66AADD6C-AF2C-46DA-ABD0-D431CCE24778}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>BlackJack_Game</RootNamespace>
-    <AssemblyName>BlackJack Game</AssemblyName>
+    <RootNamespace>Input_Assignment</RootNamespace>
+    <AssemblyName>Input Assignment</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,17 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Card.cs" />
-    <Compile Include="Dealer.cs" />
-    <Compile Include="Deck.cs" />
-    <Compile Include="Game.cs" />
-    <Compile Include="IWalkAway.cs" />
-    <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TwentyOneDealer.cs" />
-    <Compile Include="TwentyOneGame.cs" />
-    <Compile Include="TwentyOneRules.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
