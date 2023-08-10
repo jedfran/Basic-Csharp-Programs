@@ -16,8 +16,16 @@ namespace BlackJack_Game
             
             Console.WriteLine("Welcome to the Grand Hotel and Casino. Let's start by telling me your name.");
             string playerName = Console.ReadLine();
-            Console.WriteLine("And how much money do you plan on spending today?");
-            int playerBal = Convert.ToInt32(Console.ReadLine());
+
+            //Exception Handling
+            bool validAnswer = false;
+            int playerBal = 0;
+            while (!validAnswer)
+            {
+                Console.WriteLine("How much money did you bring today?");
+                validAnswer = int.TryParse(Console.ReadLine(), out playerBal);
+                if (!validAnswer) Console.WriteLine("Please enter digits only, no decimals");
+            }
             Console.WriteLine("Hello, {0}. Would you like to join a game of BlackJack right now?", playerName) ;
             string answer = Console.ReadLine().ToLower(); //lowercasing user's answer
             if (answer == "yes" || answer == "yeah" || answer == "y" || answer == "ya")
@@ -37,7 +45,23 @@ namespace BlackJack_Game
                 //while loop keeps going until player wants to stop or they run out of money
                 while (player.isActivelyPlaying && player.Balance > 0)
                 {
-                    game.Play();
+                    try
+                    {
+                        game.Play();
+                    }
+                    catch(FraudException)
+                    {
+                        Console.WriteLine("SECURITY!!! Kick this person out!");
+                        Console.ReadLine();
+                        return;
+                    }
+                    catch(Exception)
+                    {
+                        Console.WriteLine("An error occured. Please contact your System Administrator");
+                        Console.ReadLine();
+                        return;
+                    }
+                    
                 }
                 game -= player;
                 Console.WriteLine("Thank you for playing!");

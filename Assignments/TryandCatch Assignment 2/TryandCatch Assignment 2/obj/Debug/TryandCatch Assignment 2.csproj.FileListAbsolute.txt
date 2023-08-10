@@ -1,0 +1,7 @@
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\Assignments\TryandCatch Assignment 2\TryandCatch Assignment 2\bin\Debug\TryandCatch Assignment 2.exe.config
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\Assignments\TryandCatch Assignment 2\TryandCatch Assignment 2\bin\Debug\TryandCatch Assignment 2.exe
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\Assignments\TryandCatch Assignment 2\TryandCatch Assignment 2\bin\Debug\TryandCatch Assignment 2.pdb
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\Assignments\TryandCatch Assignment 2\TryandCatch Assignment 2\obj\Debug\TryandCatch Assignment 2.csproj.AssemblyReference.cache
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\Assignments\TryandCatch Assignment 2\TryandCatch Assignment 2\obj\Debug\TryandCatch Assignment 2.csproj.CoreCompileInputs.cache
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\Assignments\TryandCatch Assignment 2\TryandCatch Assignment 2\obj\Debug\TryandCatch Assignment 2.exe
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\Assignments\TryandCatch Assignment 2\TryandCatch Assignment 2\obj\Debug\TryandCatch Assignment 2.pdb
