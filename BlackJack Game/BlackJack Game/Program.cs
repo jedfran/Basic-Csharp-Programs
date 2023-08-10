@@ -24,6 +24,12 @@ namespace BlackJack_Game
             {
                 //new object of player
                 Player player = new Player(playerName, playerBal);
+                //Using GUID
+                player.Id = Guid.NewGuid();
+                using (StreamWriter file = new StreamWriter(@"C:\Users\Jedo Francisco\logs\log.txt", true))
+                {
+                    file.WriteLine(player.Id);
+                }
                 Game game = new TwentyOneGame(); //polymorphism
                 game += player; //added player to the game using overloaded operators
                 player.isActivelyPlaying = true; //used for while loop (While this is true, keep playing)

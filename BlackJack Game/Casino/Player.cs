@@ -25,6 +25,8 @@ namespace Casino
         public string Name { get; set; }
         public bool isActivelyPlaying { get; set; }
         public bool Stay { get; set; }
+        //Global Unique Identifier
+        public Guid Id { get; set; }
 
         //Bet Method
         public bool Bet(int amount)

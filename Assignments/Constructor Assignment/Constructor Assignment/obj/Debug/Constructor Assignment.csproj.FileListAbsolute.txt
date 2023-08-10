@@ -1,0 +1,7 @@
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\Assignments\Constructor Assignment\Constructor Assignment\bin\Debug\Constructor Assignment.exe.config
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\Assignments\Constructor Assignment\Constructor Assignment\bin\Debug\Constructor Assignment.exe
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\Assignments\Constructor Assignment\Constructor Assignment\bin\Debug\Constructor Assignment.pdb
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\Assignments\Constructor Assignment\Constructor Assignment\obj\Debug\Constructor Assignment.csproj.AssemblyReference.cache
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\Assignments\Constructor Assignment\Constructor Assignment\obj\Debug\Constructor Assignment.csproj.CoreCompileInputs.cache
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\Assignments\Constructor Assignment\Constructor Assignment\obj\Debug\Constructor Assignment.exe
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\Assignments\Constructor Assignment\Constructor Assignment\obj\Debug\Constructor Assignment.pdb
