@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using System.IO;
 using Casino;
 using Casino.BlackJack;
+using System.Data.SqlClient;
+using System.Data;
 
 namespace BlackJack_Game
 {
@@ -16,7 +18,6 @@ namespace BlackJack_Game
             
             Console.WriteLine("Welcome to the Grand Hotel and Casino. Let's start by telling me your name.");
             string playerName = Console.ReadLine();
-
             //Exception Handling
             bool validAnswer = false;
             int playerBal = 0;
@@ -49,15 +50,17 @@ namespace BlackJack_Game
                     {
                         game.Play();
                     }
-                    catch(FraudException)
+                    catch(FraudException ex)
                     {
                         Console.WriteLine("SECURITY!!! Kick this person out!");
+                        UpdateDbWtihException(ex);
                         Console.ReadLine();
                         return;
                     }
-                    catch(Exception)
+                    catch(Exception ex)
                     {
                         Console.WriteLine("An error occured. Please contact your System Administrator");
+                        UpdateDbWtihException(ex);
                         Console.ReadLine();
                         return;
                     }
@@ -68,6 +71,38 @@ namespace BlackJack_Game
             }
             Console.WriteLine("Feel free to explore around the Grand Hotel and Casino. Bye for now!");
             Console.Read();
+        }
+
+        //Logging Exceptions Method
+        private static void UpdateDbWtihException(Exception ex)
+        {
+            string connectionString = @"Data Source = (localdb)\ProjectsV13; Initial Catalog = BlackJackGame;
+                                      Integrated Security = True; Connect Timeout = 30; Encrypt = False;
+                                      TrustServerCertificate = False; ApplicationIntent = ReadWrite;
+                                      MultiSubnetFailover = False";
+
+            //Query string
+            string queryString = @"INSERT INTO Exceptions (ExceptionType, ExceptionMessage, TimeStamp) VALUES
+                                   (@ExceptionType, @ExceptionMessage, @TimeStamp";
+                
+
+            //Parameterized queries to avoid SQL injection attacks
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                SqlCommand command = new SqlCommand(queryString, connection);
+                command.Parameters.Add("@ExceptionType", SqlDbType.VarChar);
+                command.Parameters.Add("@ExceptionMessage", SqlDbType.VarChar);
+                command.Parameters.Add("@TimeStamp", SqlDbType.DateTime);
+
+                command.Parameters["@ExceptionType"].Value = ex.GetType().ToString();
+                command.Parameters["@ExceptionMessage"].Value = ex.Message;
+                command.Parameters["@TimeStamp"].Value = DateTime.Now;
+
+                //Sending to DataBase
+                connection.Open();
+                command.ExecuteNonQuery();
+                connection.Close();
+            }
         }
 
     }
