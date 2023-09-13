@@ -1,0 +1,12 @@
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\StudentDatabase\StudentDatabase\bin\Debug\StudentDatabase.exe.config
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\StudentDatabase\StudentDatabase\bin\Debug\StudentDatabase.exe
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\StudentDatabase\StudentDatabase\bin\Debug\StudentDatabase.pdb
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\StudentDatabase\StudentDatabase\bin\Debug\EntityFramework.dll
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\StudentDatabase\StudentDatabase\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\StudentDatabase\StudentDatabase\bin\Debug\EntityFramework.xml
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\StudentDatabase\StudentDatabase\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\StudentDatabase\StudentDatabase\obj\Debug\StudentDatabase.csproj.AssemblyReference.cache
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\StudentDatabase\StudentDatabase\obj\Debug\StudentDatabase.csproj.CoreCompileInputs.cache
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\StudentDatabase\StudentDatabase\obj\Debug\StudentDatabase.csproj.CopyComplete
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\StudentDatabase\StudentDatabase\obj\Debug\StudentDatabase.exe
+C:\Users\Jedo Francisco\OneDrive\Desktop\School\C#\Basic_C#_Programs\StudentDatabase\StudentDatabase\obj\Debug\StudentDatabase.pdb
